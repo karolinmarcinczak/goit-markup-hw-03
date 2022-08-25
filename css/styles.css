@@ -28,6 +28,16 @@ header {
 }
 .title-background {
   background-color: #2F303A;
+  height: 600px;
+  width: 1600px;
+  margin: 0 auto;
+  padding: 200px 0;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .webstudio-logo {
   font-family: "Raleway";
@@ -140,11 +150,11 @@ footer {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
+  text-align: center;
+  padding: 10px 41px 10px 42px;
 }
 .button-service-ordering:hover  {
   border: var(--blue) solid;
-  text-decoration: underline;
   text-decoration-color: var(--blue);
 }
 h4 {
