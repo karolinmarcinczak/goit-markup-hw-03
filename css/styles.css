@@ -78,7 +78,7 @@ header {
 }
 .nav-links:hover {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .nav-links:focus {
   color: var(--blue);
@@ -95,7 +95,7 @@ header {
 }
 .contacts:hover {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .contacts:focus {
   color: var(--blue);
