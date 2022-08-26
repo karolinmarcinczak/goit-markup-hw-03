@@ -134,6 +134,8 @@ h2 {
   font-style: bold;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 3%;
+  text-align: center;
 }
 footer {
   background-color: #2F303A;
@@ -146,17 +148,14 @@ footer {
   font-size: 16px;
   line-height: 1.87;
   color: var(--white);
-  display: flex;
-  border: none;
+  
+  border-style: none;
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
   padding: 10px 41px 10px 42px;
 }
-.button-service-ordering:hover  {
-  border: var(--blue) solid;
-  text-decoration-color: var(--blue);
-}
+
 h4 {
   font-family: "Roboto";
   font-weight: 700;
@@ -234,3 +233,14 @@ h5 {
   width: 1600px;
   margin: 0 auto;
 }
+.studio-container {
+  margin:0  215px;
+}
+.short-descriptions {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  margin: 94px 0;
+  gap: 30px;
+  
+} 
