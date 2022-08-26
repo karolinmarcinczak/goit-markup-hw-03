@@ -56,6 +56,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--white);
   text-decoration: none;
+  margin: ;
 }
 .without-underline {
   text-decoration: none;
@@ -112,12 +113,28 @@ address {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .footer-contacts {
   font-size: 14px;
   line-height: 1.71;
   color: #FFFFFF99;
   text-decoration: none;
+}
+footer {
+  background-color: #2F303A;
+  width: auto;
+  height: 252px;
+  padding: 60px 0 60px 215px;
+  flex-direction: column;
+}
+
+.contacts-list {
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  gap: 9px;
 }
 h1 {
   font-family: "Roboto";
@@ -137,14 +154,10 @@ h2 {
   letter-spacing: 3%;
   text-align: center;
 }
-footer {
-  background-color: #2F303A;
-  width: auto;
-  height: 252px;
-  padding: 60px 0 60px 215px;
-  flex-direction: column;
-  
+.what-we-do {
+  margin-top: 94px;
 }
+
 .button-service-ordering {
   background-color: var(--blue);
   width: 200px;
@@ -251,13 +264,12 @@ h5 {
 } 
 .team-header {
   padding-top: 94px;
-
 }
 .services {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 50px 0 94px;
+  margin: 50px 0 94px;
 }
 .team-container {
   background-color: #F5F4FA;
