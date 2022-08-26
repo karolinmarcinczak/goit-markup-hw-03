@@ -17,7 +17,10 @@ header {
   flex-direction: row;
   align-items: center;
   display: flex;
-  padding: 24px 0 25px 215px;
+  padding: 25px 0 24px 215px;
+}
+.header-border {
+  border-bottom: #ECECEC solid 1px;
 }
 .nav-container {
   padding: 32px 364px 32px 93px;
@@ -126,7 +129,7 @@ footer {
   background-color: #2F303A;
   width: auto;
   height: 252px;
-  padding: 60px 0 60px 215px;
+  padding: 60px 0 0 215px;
   flex-direction: column;
 }
 
@@ -204,6 +207,7 @@ h5 {
   font-family: 'Roboto';
   font-size: 16px;
   Line-height: 1.87;
+  margin:0 0 0 24px;
 }
 .portfolio-first-button {
   font-family: 'Roboto';
@@ -291,4 +295,28 @@ h5 {
 }
 .team-card-name {
   margin: 30px 0 10px 0;
+}
+.row-of-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 94px;
+  gap: 8px;
+}
+.services-offer  {
+  margin-top: 56px;
+  margin-bottom: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.service-card {
+  width: 370px;
+  height: 404px;
+  border: #EEEEEE solid 1px;
+}
+.product-header {
+  margin: 20px 0 4px 24px;
 }
