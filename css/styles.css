@@ -124,6 +124,7 @@ address {
   line-height: 1.71;
   color: #FFFFFF99;
   text-decoration: none;
+  padding: 0;
 }
 footer {
   background-color: #2F303A;
