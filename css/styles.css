@@ -13,33 +13,34 @@ body {
 }
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-header {
+.header {
   background-color: var(--white);
   height: 80px;
   flex-direction: row;
   align-items: center;
   display: flex;
+  padding: 25px 0 24px 0;
+  gap: 93px;
 }
 .header-border {
   border-bottom: #ECECEC solid 1px;
 }
 .nav-container {
-  padding: 32px 364px 32px 93px;
-  flex-direction: row;
   display: flex;
-  align-items: center;
   gap:46px;
+  line-height: 1.2;
+  padding: 0;
+  margin-left: 93px;
 }
 .title-background {
   background-color: #2F303A;
   height: 600px;
-  width: 1600px;
   padding: 200px 0;
   display: flex;
   gap: 30px;
@@ -80,10 +81,8 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  align-items: center;
-  flex-direction: row;
   color: var(--main-text-color);
+  text-decoration: none;
 
 }
 .nav-links:hover {
@@ -101,7 +100,7 @@ header {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  align-items: left; 
+   
 }
 .contacts:hover {
   color: var(--blue);
@@ -111,10 +110,8 @@ header {
   color: var(--blue);
 }
 .nav-contacts {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 32px 227px 32px 0px;
+  align-items: left;
+  margin-left: 0;
   gap: 50px;
   list-style: none;
 }
