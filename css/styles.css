@@ -270,7 +270,6 @@ h5 {
   display: flex;
   list-style: none;
   flex-direction: row;
-  margin: 94px 0;
   gap: 30px;
 } 
 .team-header {
