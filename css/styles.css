@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #E5E5E5;
+  --main-bg-color: #FFFFFF;
   --main-text-color:#212121;
   --blue: #2196F3;
   --white: #ffffff;
@@ -313,13 +313,12 @@ h5 {
   gap: 8px;
 }
 .services-offer  {
-  margin-top: 56px;
-  margin-bottom: 94px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
   gap: 30px;
+  flex-basis: calc((100% - 6px) / 3);
 }
 .service-card {
   width: 370px;
