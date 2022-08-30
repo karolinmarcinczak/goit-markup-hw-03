@@ -55,6 +55,7 @@ body {
 .title-background {
   background-color: #2F303A;
   height: 600px;
+  width: 1600px;
   padding: 200px 0;
   display: flex;
   gap: 30px;
@@ -62,6 +63,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 .webstudio-logo {
   font-family: "Raleway";
@@ -288,6 +290,8 @@ h5 {
 .team-container {
   background-color: #F5F4FA;
   height: 648px;
+  width: 1600px;
+  margin: auto;
 }
 .team-members {
   display: flex;
