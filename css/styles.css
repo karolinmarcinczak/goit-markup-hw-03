@@ -26,17 +26,17 @@ body {
   height: 80px;
   flex-direction: row;
   align-items: center;
-  display: flex;
-  padding: 24px 0 25px 0;
+  display: flex; 
   gap: 93px;
   display: flex;
   border-bottom: 1px solid #ececec;
 }
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
+  width: 1600px;
+  margin:0 auto;
   align-items: center;
-  padding: 16px 27px 16px 15px;
+  padding: 24px 0 25px 0;
 }
 .header-border {
   border-bottom: #ECECEC solid 1px;
@@ -149,6 +149,8 @@ address {
 footer {
   background-color: #2F303A;
   height: 252px;
+  width: 1600px;
+  margin: auto;
   padding: 60px 0 0 215px;
   flex-direction: column;
 }
