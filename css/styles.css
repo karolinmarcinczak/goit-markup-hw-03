@@ -24,23 +24,18 @@ body {
 .header {
   background-color: var(--white);
   height: 80px;
+  width: 1600px;
   flex-direction: row;
-  align-items: center;
-  display: flex; 
-  gap: 93px;
   display: flex;
+  justify-content: space-between;
+  gap: 93px;
   border-bottom: 1px solid #ececec;
 }
 .header-wrapper {
   display: flex;
-  width: 1600px;
-  margin:0 auto;
-  align-items: center;
-  padding: 24px 0 25px 0;
+  align-items: center; 
 }
-.header-border {
-  border-bottom: #ECECEC solid 1px;
-}
+
 .nav-container {
   display: flex;
   flex-direction: row;
