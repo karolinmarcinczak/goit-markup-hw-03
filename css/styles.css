@@ -265,6 +265,7 @@ h5 {
 }
 .no-dots-list{
   list-style: none;
+  padding-left: 0;
 }
 
 .short-descriptions {
